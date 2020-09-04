@@ -5,10 +5,10 @@
 	<container qualifier="chameleon" default="true">
 		<configuration>
 			<property name="chameleonTarget">jboss eap:7.2:remote</property>
-			<property name="managementAddress">${host}</property>
+			<property name="managementAddress">127.0.0.1</property>
 			<property name="managementPort">9990</property>
-			<property name="username">${user}</property>
-			<property name="password">${password}</property>
+			<property name="username">admin</property>
+			<property name="password">Simples1*</property>
 		</configuration>
 	</container>
 
